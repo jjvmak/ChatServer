@@ -23,12 +23,8 @@ public class Connection {
 			cc.start();
 			
 		} 
-		
-		
 	} 
 	
-	
-
 	static class ClientConnection extends Thread {
 		private final Socket client;
 		
